@@ -2,24 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="836" started-at="2016-03-17T05:43:52Z" finished-at="2016-03-17T05:43:53Z">
+  <suite name="Command line suite" duration-ms="974" started-at="2016-03-18T04:59:24Z" finished-at="2016-03-18T04:59:25Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="836" started-at="2016-03-17T05:43:52Z" finished-at="2016-03-17T05:43:53Z">
+    <test name="Command line test" duration-ms="974" started-at="2016-03-18T04:59:24Z" finished-at="2016-03-18T04:59:25Z">
       <class name="com.boodman.mvntest.persist.AppTest">
-        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.boodman.mvntest.persist.AppTest@796e33ac]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="29" started-at="2016-03-17T13:43:52Z" finished-at="2016-03-17T13:43:52Z">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.boodman.mvntest.persist.AppTest@441626bf]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="22" started-at="2016-03-18T12:59:24Z" finished-at="2016-03-18T12:59:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestClass -->
-        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.boodman.mvntest.persist.AppTest@796e33ac]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="737" started-at="2016-03-17T13:43:52Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2016-03-17T13:43:52Z">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.boodman.mvntest.persist.AppTest@441626bf]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="872" started-at="2016-03-18T12:59:24Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2016-03-18T12:59:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextPrepareTestInstance -->
-        <test-method status="PASS" signature="testXML()[pri:0, instance:com.boodman.mvntest.persist.AppTest@796e33ac]" name="testXML" duration-ms="52" started-at="2016-03-17T13:43:52Z" finished-at="2016-03-17T13:43:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testXML -->
-        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.boodman.mvntest.persist.AppTest@796e33ac]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2016-03-17T13:43:52Z" finished-at="2016-03-17T13:43:52Z">
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.boodman.mvntest.persist.AppTest@441626bf]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2016-03-18T12:59:25Z" finished-at="2016-03-18T12:59:25Z">
           <params>
             <param index="0">
               <value>
@@ -30,7 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.boodman.mvntest.persist.AppTest@796e33ac]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2016-03-17T13:43:53Z" finished-at="2016-03-17T13:43:53Z">
+        <test-method status="PASS" signature="testXML()[pri:0, instance:com.boodman.mvntest.persist.AppTest@441626bf]" name="testXML" duration-ms="56" started-at="2016-03-18T12:59:25Z" finished-at="2016-03-18T12:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testXML -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.boodman.mvntest.persist.AppTest@441626bf]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2016-03-18T12:59:25Z" finished-at="2016-03-18T12:59:25Z">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.boodman.mvntest.persist.AppTest@796e33ac]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2016-03-17T13:43:53Z" finished-at="2016-03-17T13:43:53Z">
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.boodman.mvntest.persist.AppTest@441626bf]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2016-03-18T12:59:25Z" finished-at="2016-03-18T12:59:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestClass -->
