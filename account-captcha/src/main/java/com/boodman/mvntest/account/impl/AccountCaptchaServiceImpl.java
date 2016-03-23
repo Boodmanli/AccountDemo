@@ -11,6 +11,7 @@ import java.util.Properties;
 import javax.imageio.ImageIO;
 
 import org.springframework.beans.factory.InitializingBean;
+import org.springframework.stereotype.Service;
 
 import com.boodman.mvntest.account.api.AccountCaptchaException;
 import com.boodman.mvntest.account.api.AccountCaptchaService;
@@ -18,6 +19,7 @@ import com.boodman.mvntest.account.util.CaptchaUtils;
 import com.google.code.kaptcha.impl.DefaultKaptcha;
 import com.google.code.kaptcha.util.Config;
 
+@Service("accountCaptchaService")
 public class AccountCaptchaServiceImpl implements AccountCaptchaService,InitializingBean {
 
 	private Map<String, String> captchaMap = new HashMap<String, String>();
@@ -72,11 +74,13 @@ public class AccountCaptchaServiceImpl implements AccountCaptchaService,Initiali
 		if (text.equals(captchaValue)) {
 			captchaMap.remove(captchaKey);
 		}else {
-			return false;
+			return true;
 		}
 		return false;
 	}
 
+	
+	
 	public List<String> getPreDefinedTexts() {
 		return perDefinedTexts;
 	}
@@ -100,12 +104,15 @@ public class AccountCaptchaServiceImpl implements AccountCaptchaService,Initiali
 	 * @return
 	 */
 	public String getCaptchaText(){
-		if (perDefinedTexts!=null&&getPreDefinedTexts().isEmpty()) {
-			String text = getPreDefinedTexts().get(textCount);
-			textCount = (textCount+1) % getPreDefinedTexts().size();
+		if (perDefinedTexts!=null&&perDefinedTexts.isEmpty()) {
+			String text = perDefinedTexts.get(textCount);
+			textCount = (textCount+1) % perDefinedTexts.size();
+			System.out.println(text);
 			return text;
 		}else {
-			return producer.createText();
+			String aa = producer.createText();
+			System.out.println(aa);
+			return aa;
 		}
 		
 	}
