@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="668" started-at="2016-03-22T08:30:31Z" finished-at="2016-03-22T08:30:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="668" started-at="2016-03-22T08:30:31Z" finished-at="2016-03-22T08:30:32Z">
+      <class name="com.boodman.mvntest.test.TestNormal">
+        <test-method status="PASS" signature="testMap()[pri:0, instance:com.boodman.mvntest.test.TestNormal@163c2261]" name="testMap" duration-ms="458" started-at="2016-03-22T16:30:31Z" finished-at="2016-03-22T16:30:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMap -->
+      </class> <!-- com.boodman.mvntest.test.TestNormal -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
