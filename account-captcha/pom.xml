@@ -19,10 +19,9 @@
 	<dependencies>
 	<!-- 验证码 -->
 		<dependency>
-			<groupId>com.google.code.kaptcha</groupId>
-			<artifactId>kaptcha</artifactId>
-			<version>${kaptcha.version}</version>
-			<classifier>jdk15</classifier>
+  			<groupId>com.google.code.kaptcha</groupId>
+  			<artifactId>kaptcha</artifactId>
+  			<version>${kaptcha.version}</version>
 		</dependency>
 		
 		<!-- Spring 依赖 -->
@@ -57,17 +56,12 @@
 			<artifactId>testng</artifactId>
 		</dependency>
 	</dependencies>
-	<repositories>
-		<repository>
-			<id>sonatype-forge</id>
-			<name>Sonatype Forge</name>
-			<url>http://repository.sonatype.org/content/groups/forge/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
 </project>
