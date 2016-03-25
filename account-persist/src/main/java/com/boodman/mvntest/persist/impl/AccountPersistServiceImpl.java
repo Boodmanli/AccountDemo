@@ -86,7 +86,6 @@ public class AccountPersistServiceImpl implements AccountPersistService{
 		return accountVO;
 		
 	}
-	@Override
 	public AccountVO createAccount(AccountVO accountVO) throws AccountPersistException {
 		
 		// TODO Auto-generated method stub
@@ -95,7 +94,6 @@ public class AccountPersistServiceImpl implements AccountPersistService{
 
 	
 	@SuppressWarnings("unchecked")
-	@Override
 	public AccountVO findAccount(String id) throws AccountPersistException {
 		Document doc = readDocument();
 		Element accountsEle = doc.getRootElement().element("accounts");

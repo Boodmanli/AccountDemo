@@ -9,7 +9,7 @@ public class TestNormal {
 
 	@Test
 	public void testMap(){
-		Map<String , String> map = new HashMap<>();
+		Map<String , String> map = new HashMap<String, String>();
 		map.put("123", "aaa");
 		map.put("11", "bbb");
 		String test = map.get("123");
