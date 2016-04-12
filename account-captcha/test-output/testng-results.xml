@@ -2,46 +2,46 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="81379" started-at="2016-03-22T09:13:54Z" finished-at="2016-03-22T09:15:15Z">
+  <suite name="Default suite" duration-ms="6031" started-at="2016-03-30T03:21:29Z" finished-at="2016-03-30T03:21:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="81379" started-at="2016-03-22T09:13:54Z" finished-at="2016-03-22T09:15:15Z">
+    <test name="Default test" duration-ms="6031" started-at="2016-03-30T03:21:29Z" finished-at="2016-03-30T03:21:35Z">
       <class name="com.boodman.mvntest.acptcha.test.AccountCaptchaServicetest">
-        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.boodman.mvntest.acptcha.test.AccountCaptchaServicetest@11ecab7c]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="221" started-at="2016-03-22T17:13:54Z" finished-at="2016-03-22T17:13:54Z">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.boodman.mvntest.acptcha.test.AccountCaptchaServicetest@4786bc70]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="72" started-at="2016-03-30T11:21:29Z" finished-at="2016-03-30T11:21:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestClass -->
-        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.boodman.mvntest.acptcha.test.AccountCaptchaServicetest@11ecab7c]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="17203" started-at="2016-03-22T17:13:54Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2016-03-22T17:14:11Z">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.boodman.mvntest.acptcha.test.AccountCaptchaServicetest@4786bc70]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="2149" started-at="2016-03-30T11:21:29Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2016-03-30T11:21:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextPrepareTestInstance -->
-        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.boodman.mvntest.acptcha.test.AccountCaptchaServicetest@11ecab7c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2016-03-22T17:14:11Z" finished-at="2016-03-22T17:14:11Z">
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.boodman.mvntest.acptcha.test.AccountCaptchaServicetest@4786bc70]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2016-03-30T11:21:31Z" finished-at="2016-03-30T11:21:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.boodman.mvntest.acptcha.test.AccountCaptchaServicetest.testValidateCaptchaCorrect()]]>
+                <![CDATA[public void com.boodman.mvntest.acptcha.test.AccountCaptchaServicetest.testGenerateCaptcha()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method status="PASS" signature="testValidateCaptchaCorrect()[pri:0, instance:com.boodman.mvntest.acptcha.test.AccountCaptchaServicetest@11ecab7c]" name="testValidateCaptchaCorrect" duration-ms="63912" started-at="2016-03-22T17:14:11Z" finished-at="2016-03-22T17:15:15Z">
+        <test-method status="PASS" signature="testGenerateCaptcha()[pri:0, instance:com.boodman.mvntest.acptcha.test.AccountCaptchaServicetest@4786bc70]" name="testGenerateCaptcha" duration-ms="3752" started-at="2016-03-30T11:21:31Z" finished-at="2016-03-30T11:21:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testValidateCaptchaCorrect -->
-        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.boodman.mvntest.acptcha.test.AccountCaptchaServicetest@11ecab7c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="3" started-at="2016-03-22T17:15:15Z" finished-at="2016-03-22T17:15:15Z">
+        </test-method> <!-- testGenerateCaptcha -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.boodman.mvntest.acptcha.test.AccountCaptchaServicetest@4786bc70]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2016-03-30T11:21:35Z" finished-at="2016-03-30T11:21:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.boodman.mvntest.acptcha.test.AccountCaptchaServicetest.testValidateCaptchaCorrect()]]>
+                <![CDATA[public void com.boodman.mvntest.acptcha.test.AccountCaptchaServicetest.testGenerateCaptcha()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.boodman.mvntest.acptcha.test.AccountCaptchaServicetest@11ecab7c]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2016-03-22T17:15:15Z" finished-at="2016-03-22T17:15:15Z">
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.boodman.mvntest.acptcha.test.AccountCaptchaServicetest@4786bc70]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2016-03-30T11:21:35Z" finished-at="2016-03-30T11:21:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestClass -->

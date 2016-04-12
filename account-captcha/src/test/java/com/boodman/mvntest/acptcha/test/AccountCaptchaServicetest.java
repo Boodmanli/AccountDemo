@@ -7,7 +7,8 @@ import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import javax.inject.Inject;
+
 import org.testng.annotations.Test;
 
 import com.boodman.mvntest.account.api.AccountCaptchaException;
@@ -15,7 +16,7 @@ import com.boodman.mvntest.account.api.AccountCaptchaService;
 import com.boodman.mvntest.account_captcha.BaseTest;
 
 public class AccountCaptchaServicetest extends BaseTest {
-	@Autowired
+	@Inject
 	private AccountCaptchaService accountCaptchaService;
 	
 	@Test
